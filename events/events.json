@@ -1,0 +1,265 @@
+{
+	"events": [
+		{
+			"string": "<tribute0> sprains <hishertheir0> ankle while running away from <tribute1>.",
+			"deaths": [-1],
+		"numTributes": 2
+		},
+		{
+			"string": "<tribute0> tries to sleep through the day.",
+			"deaths": [-1],
+		"numTributes": 1
+		},
+		{
+			"string": "<tribute0> hunts for other tributes.",
+			"deaths": [-1],
+		"numTributes": 1
+		},
+		{
+			"string": "<tribute0> is pricked by thorns while picking berries.",
+			"deaths": [-1],
+		"numTributes": 1
+		},
+		{
+			"string": "<tribute0> chases <tribute1>.",
+			"deaths": [-1],
+		"numTributes": 2
+		},
+		{
+			"string": "<tribute0> runs away from <tribute1>.",
+			"deaths": [-1],
+		"numTributes": 2
+		},
+		{
+			"string": "<tribute0>, <tribute1>, <tribute2> and <tribute3> hunt for other tributes.",
+			"deaths": [-1],
+		"numTributes": 4
+		},
+		{
+			"string": "<tribute0>, <tribute1>, <tribute2>, <tribute3> and <tribute4> hunt for other tributes.",
+			"deaths": [-1],
+		"numTributes": 5
+		},
+		{
+			"string": "<tribute0> and <tribute1> work together for the day.",
+			"deaths": [-1]
+		,
+		"numTributes": 2
+		},
+		{
+			"string": "<tribute0> sees smoke rising in the distance, but decides not to investigate.",
+			"deaths": [-1],
+		"numTributes": 1
+		},
+		{
+			"string": "<tribute0> tries to spear fish with a trident.",
+			"deaths": [-1],
+		"numTributes": 1
+		},
+		{
+			"string": "<tribute0> kills <tribute1> with a hatchet.",
+			"deaths": [1],
+		"numTributes": 2
+		},
+	{
+			"string": "<tribute0> sets <tribute1> on fire with a molotov.",
+			"deaths": [1],
+		"numTributes": 2
+		},
+		{
+			"string": "<tribute0> accidently detonates a land mine while trying to arm it.",
+			"deaths": [0],
+		"numTributes": 1
+		},
+		{
+			"string": "<tribute0> steals from <tribute1> while <tribute1> isn't looking.",
+			"deaths": [-1],
+		"numTributes": 2
+		},
+	{
+			"string": "<tribute0> collects fruit from a tree.",
+			"deaths": [-1],
+		"numTributes": 1
+		},
+		{
+			"string": "<tribute0> defeats <tribute1> in a fight, but spares <hishertheir1> life.",
+			"deaths": [-1],
+		"numTributes":2
+		},
+		{
+			"string": "<tribute0> camouflages <himherthem0>self in the bushes.",
+			"deaths": [-1],
+		"numTributes": 1
+		},
+	{
+			"string": "<tribute0> receives medicinal supplies from an unknown sponsor.",
+			"deaths": [-1],
+		"numTributes": 1
+		},
+	{
+			"string": "<tribute0> overhears <tribute1> and <tribute2> talking in the distance.",
+			"deaths": [-1],
+		"numTributes": 3
+		},
+	{
+			"string": "<tribute0> travels to higher ground.",
+			"deaths": [-1],
+		"numTributes": 1
+		},
+	{
+			"string": "<tribute0> receives fresh food from an unkown sponsor.",
+			"deaths": [-1],
+		"numTributes": 1
+		},
+	{
+			"string": "<tribute0> makes a wooden spear.",
+			"deaths": [-1],
+		"numTributes": 1
+		},
+	{
+			"string": "<tribute0> stalks <tribute1>.",
+			"deaths": [-1],
+		"numTributes": 2
+		},
+	{
+			"string": "<tribute0> receives clean water from an unknown sponsor.",
+			"deaths": [-1],
+		"numTributes": 1
+		},
+	{
+			"string": "<tribute0> scares <tribute1> off.",
+			"deaths": [-1],
+		"numTributes": 2
+		},
+	{
+		"string": "<tribute0> searches for a water source.",
+		"deaths": [-1],
+		"numTributes": 1
+	},
+	{
+		"string": "<tribute0> constructs a shack.",
+		"deaths": [-1],
+		"numTributes": 1
+	},
+	{
+		"string": "<tribute0> tends to <tribute1>'s wounds.",
+		"deaths": [-1],
+		"numTributes": 2
+	},
+	{
+		"string": "<tribute0> receives an explosive from an unknown sponsor.",
+		"deaths": [-1],
+		"numTributes": 1
+	},
+	{
+		"string": "<tribute0> injures <himherthem0>self.",
+		"deaths": [-1],
+		"numTributes": 1
+	},
+	{
+		"string": "<tribute0> dies from hunger.",
+		"deaths": [0],
+		"numTributes": 1
+	},
+	{
+		"string": "<tribute0> fishes, but fails to catch a pwoper one.",
+		"deaths": [-1],
+		"numTributes": 1
+	},
+	{
+		"string": "<tribute0> kills <tribute1> with <hishertheir1> own weapon.",
+		"deaths": [1],
+		"numTributes": 2
+	},
+	{
+			"string": "<tribute0> begs for <tribute1> to kill <himherthem0>, but <heshethey1> <refuserefuses1>, keeping <tribute0> alive",
+			"deaths": [-1],
+		"numTributes": 2
+		},
+	{
+		"string": "<tribute0> stabs <tribute1> in the back with a trident.",
+		"deaths": [1],
+		"numTributes": 2
+	},
+	{
+		"string": "<tribute0> makes a slingshot.",
+		"deaths": [-1],
+		"numTributes": 1
+	},
+	{
+			"string": "<tribute0> strangles <tribute1> after engaging in a fist fight.",
+			"deaths": [1],
+		"numTributes": 2
+		},
+	{
+		"string": "<tribute0> repeatedly stabs <tribute1> to death with sais.",
+		"deaths": [1],
+		"numTributes": 2
+	},
+	{
+		"string": "<tribute0> questions <hishertheir0> sanity.",
+		"deaths": [-1],
+		"numTributes": 1
+	},
+	{
+		"string": "<tribute0> picks flowers.",
+		"deaths": [-1],
+		"numTributes": 1
+	},
+	{
+		"string": "<tribute0> severely slices <tribute1> with a sword.",
+		"deaths": [1],
+		"numTributes": 2
+	},
+	{
+		"string": "<tribute0> discovers a cave.",
+		"deaths": [-1],
+		"numTributes": 1
+	},
+	{
+		"string": "<tribute0> explores the simulation.",
+		"deaths": [-1],
+		"numTributes": 1
+	},
+	{
+		"string": "<tribute0> diverts <tribute1>'s attention and runs away.",
+		"deaths": [-1],
+		"numTributes": 2
+	},
+	{
+		"string": "<tribute0> sets off an explosive, killing <tribute1> and <tribute2>.",
+		"deaths": [1, 2],
+		"numTributes": 3
+	},
+	{
+		"string": "<tribute0> and <tribute1> ambush <tribute2>, but <tribute2> fights back and triumphantly kills them both.",
+		"deaths": [0, 1],
+		"numTributes": 3
+	},
+	{
+		"string": "<tribute0> fells a nearby tree for its wood.",
+		"numTributes": 1,
+		"deaths": [-1]  
+	},
+	{
+		"string": "<tribute0> hunts for food.",
+		"numTributes": 1,
+		"deaths": [-1]  
+	},
+	{
+		"string": "<tribute0> sees <tribute1> hunting nearby, but decides it is too risky and runs away.",
+		"numTributes": 2,
+		"deaths": [-1]  
+	},
+	{
+		"string": "<tribute0> blacks out.",
+		"numTributes": 1,
+		"deaths": [-1]  
+	},
+	{
+		"string": "<tribute0> kills <tribute1> in order to survive.",
+		"numTributes": 2,
+		"deaths": [1]  
+	}
+]
+}
