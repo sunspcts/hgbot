@@ -16,7 +16,8 @@ client.currentGames = new Enmap ({
 		inGame: false,
 		day: 0,
 		chosen: false,
-		timeOfDay: true, //true=day, false=night
+		isDay: true, //true=day, false=night
+		onSpecialDay: false,
 		doneSpecialDay: false,
 		initialTributes: [],
 		currentTributes: [],
@@ -61,14 +62,18 @@ client.on('message', message => {
 			if(client.currentGames.get(message.guild.id, "inSetup")) setup.chooseTributes(message, client);
 			else if (cmdName === "addtribute") message.channel.send(`Run ${config.prefix}setup first!`)
 		}
-		else if (client.currentGames.get(message.guild.id, "chosen")) {
-			if (cmdName === "start" && !client.currentGames.get(message.guild.id, "inGame")) { //HERE WE GO
+		else {
+			console.log("yote")
+			console.log(cmdName)
+			if (cmdName === "start" && !client.currentGames.get(message.guild.id, "inGame") && client.currentGames.get(message.guild.id, "chosen")) { //HERE WE GO
+				console.log("yeetus")
 				game.start(message, client)
 			}
 		}
   } catch (error) {
   	console.error(error);
-  	message.reply('something went wrong, but idk what. message my creator, sunspcts#0505 with a screenshot of what you were doing so they can try to fix it');
+	  message.channel.send("bot did an oopsie")
+  	//message.reply('something went wrong, but idk what. message my creator, sunspcts#0505 with a screenshot of what you were doing so they can try to fix it');
   }
 });
 
