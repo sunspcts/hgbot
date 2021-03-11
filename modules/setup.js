@@ -45,12 +45,10 @@ exports.chooseTributes = (msg, client) => {
         .then(res => res.json())
         .then((json) => {
           try {for (i = 0; i < json.tributes.length; i++) {
-
-            console.log(parseInt(json.tributes[i].gender));
             if(typeof json.tributes[i].name === 'string' && typeof parseInt(json.tributes[i].gender) === 'number') {  
               client.currentGames.push(_guild, {name: json.tributes[i].name, gender: parseInt(json.tributes[i].gender)}, "initialTributes");
             }
-          }}
+          } quickEmbed("Success!", "Tributes successfully uploaded.", msg); }
           catch {msg.channel.send("Invalid, input must be a valid JSON file.")}
         })
       }
@@ -71,10 +69,10 @@ exports.chooseTributes = (msg, client) => {
       if(initTribs.length % 2 === 0) {
         client.currentGames.set(_guild, initTribs, "currentTributes");
         client.currentGames.set(_guild, true, "chosen");
-        msg.channel.send("Success! Now you can run sg!start! (TODO: MAKE THIS AN EMBED)")
+        quickEmbed("Success!", "Now you can run hg!start!", msg)
         return;
       }
-      msg.channel.send("Err: Number of tributes must be a multiple of 2");
+      quickEmbed("Error", "Number of tributes must be a multiple of 2.", msg)
       console.log(initTribs);
     }
   }
@@ -90,4 +88,7 @@ function validTribute(string) {
     else return false;
   }
   else return false;
+}
+function quickEmbed(title, text, message) {
+	message.channel.send(new Discord.MessageEmbed().setColor('#fa0000').setTitle(title).setDescription(text));
 }
