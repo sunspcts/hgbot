@@ -30,7 +30,7 @@ exports.next = (message, client) => {
 	let dead = db.get(_guild, "dead")
 	let roundEmbed = new Discord.MessageEmbed().setColor(isDay ? '#ff05c1' : '#5d0873').setTitle('**Day ' + Math.floor(day) + '**').setDescription(isDay ? '**Daytime**' : '**Nighttime**');
 
-	if(dead.length > 0 && isDay){ // F in the Chat!
+	if(dead.length > 0 && isDay){ //F
 		message.channel.send(cannonShots(db, _guild));
 	}
 	else {
@@ -69,7 +69,7 @@ function eventRound(eventsPath, _guild, db) {
 
 			let event;
 			do {
-				event = events[Math.floor(Math.random() * events.length)]; //self-explanatory, random event
+				event = events[Math.floor(Math.random() * events.length)];
 				event = JSON.parse(JSON.stringify(event))
 	
 			} while (event.numTributes > thisEventTributes.length || (event.deaths.length >= currentTributes.length && event.deaths[0] !== -1));
@@ -103,6 +103,11 @@ function shuffleArray(array) {
 }
 
 function cannonShots(db, _guild) {
-	db.set(_guild, [], "dead")
-	return "wip";
+	dead = db.get(_guild, "dead")
+	let deadEmbed = new Discord.MessageEmbed().setTitle('**The Dead**').setDescription('Cannon shots can be heard in the distance...');
+  for(let i = 0; i < dead.length; i++){
+    deadEmbed.addField('**' + dead[i].name + '**', 'placeholder');
+	};
+	db.set(_guild, [], "dead");
+	return deadEmbed;
 }
