@@ -35,7 +35,7 @@ exports.next = (message, client) => {
 	}
 	else {
 		events = eventRound(isDay ? "events/events.json" : "events/nightevents.json", _guild, db);
-		roundEmbed.setThumbnail(isDay ? 'https://raw.githubusercontent.com/Corvance/tpshgbot/main/day.png' : 'https://raw.githubusercontent.com/Corvance/tpshgbot/main/night.png'); //TODO: Remove Corv's assets
+		roundEmbed.setThumbnail(isDay ? 'https://raw.githubusercontent.com/Corvance/tpshgbot/main/day.png' : 'https://raw.githubusercontent.com/Corvance/tpshgbot/main/night.png'); //TODO: Replace Corv's assets
 		for (let i = 0; i < events.length; i += 2) {
 			if(i + 1 < events.length)
 				roundEmbed.addField('\u200b\n**' + events[i].string + '**', '\u200b\n**' + events[i + 1].string + '**', true);
@@ -43,6 +43,12 @@ exports.next = (message, client) => {
 				roundEmbed.addField('\u200b\n**' + events[i].string + '**', '\u200b', true);
 		}
 		message.channel.send(roundEmbed);
+		
+		if(db.get(_guild, "currentTributes").length < 2){
+			endGame(message, db.get(_guild, "currentTributes"), client);
+		}
+		
+
 		db.set(_guild, !isDay, "isDay")
 		db.math(_guild, "+", 0.5, "day")
 	}
@@ -130,4 +136,10 @@ function killEvents(events, initialLength, currentLength) {
 		console.log(i)
 	}
 	return(newEvents);
+}
+
+function endGame(message, currentTributes, client) {
+  var winnerEmbed = new Discord.MessageEmbed().setTitle('**VICTORY**').setDescription('***' + currentTributes[0].name + '*** **has won the Hunger Games!**').setColor('#19d3e0').setFooter('Bot has been reset. You can now start a new game.');;
+  message.channel.send(winnerEmbed);
+	client.currentGames.delete(message.guild.id);
 }
