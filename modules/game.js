@@ -57,6 +57,8 @@ function eventRound(eventsPath, _guild, db) {
 		tempTributes = [...currentTributes]
 		//Array of all the events which take place this round
 		let eventsThisRound = [];
+		
+		events = killEvents(events, db.get(_guild, "initialTributes").length, currentTributes.length);
 
 		while (tempTributes.length > 0) {  
 
@@ -67,18 +69,20 @@ function eventRound(eventsPath, _guild, db) {
 			let thisEventTributes = [];
 			thisEventTributes = tempTributes.splice(0, 4);
 
+
 			let event;
 			do {
 				event = events[Math.floor(Math.random() * events.length)];
 				event = JSON.parse(JSON.stringify(event))
 	
 			} while (event.numTributes > thisEventTributes.length || (event.deaths.length >= currentTributes.length && event.deaths[0] !== -1));
-			//format that shit
-			event = parser.parseEvent(event, thisEventTributes); 
+			
+			event = parser.parseEvent(event, thisEventTributes);  //add tribute name and correct pronouns to event string
+
 			//Push the event to the array for returning
-			console.log(event);
 			eventsThisRound.push(event);
-			//genocide
+
+			//kill the tributes that died
 			for (let j = 0; j < thisEventTributes.length; j++) {
 				//check if their index is included in the deaths array of the tribute object,
 				if (event.deaths.indexOf(j) >= 0) {
@@ -89,11 +93,11 @@ function eventRound(eventsPath, _guild, db) {
 					db.set(_guild, currentTributes, "currentTributes")
 				}
 			}
-			event = [];
 		}
 	
 		return eventsThisRound;
 	}
+
 function shuffleArray(array) {
 	for (let i = array.length - 1; i > 0; i--) {
 			const j = Math.floor(Math.random() * (i + 1));
@@ -111,4 +115,19 @@ function cannonShots(db, _guild) {
 	};
 	db.set(_guild, [], "dead");
 	return deadEmbed;
+}
+
+function killEvents(events, initialLength, currentLength) {
+	newEvents = JSON.parse(JSON.stringify(events))
+	const eventLength = newEvents.length; // stops an infinite loop
+	for (i = 0; i < eventLength; i++) {
+		let rand = Math.random();
+		let j = currentLength/initialLength;
+		if(newEvents[i].deaths[0] != -1) {
+			console.log(rand + "   " + j);
+			if(j < rand * 2) {console.log("added"); newEvents.push(newEvents[i])};
+		}
+		console.log(i)
+	}
+	return(newEvents);
 }

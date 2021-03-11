@@ -259,7 +259,7 @@
 	{
 		"string": "<tribute0> kills <tribute1> in order to survive.",
 		"numTributes": 2,
-		"deaths": [1]  
+		"deaths": [1]
 	}
 ]
 }
