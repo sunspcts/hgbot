@@ -27,9 +27,6 @@ client.currentGames = new Enmap ({
 });
 
 const config = require("./config.json"); //contains prefix and token
-const { help } = require('./modules/help');
-
-prefix = config.prefix
 
 
 client.on('ready', () => {
