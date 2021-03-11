@@ -106,11 +106,6 @@
 		"numTributes": 2
 	},
 	{
-		"string": "<tribute0> dies trying to escape the simulation.",
-		"deaths": [0],
-		"numTributes": 1
-	},
-	{
 		"string": "<tribute0> convinces <tribute1> to snuggle with <himherthem0>.",
 		"deaths": [-1],
 		"numTributes": 2

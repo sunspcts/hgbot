@@ -2,6 +2,7 @@
 const Discord = require('discord.js')
 const client = new Discord.Client();
 const setup = require('./modules/setup');
+const helpjs = require('./modules/help');
 const game = require('./modules/game');
 const Enmap = require('enmap');
 
@@ -25,7 +26,8 @@ client.currentGames = new Enmap ({
 	}
 });
 
-const config = require("./config.json") //contains prefix and token
+const config = require("./config.json"); //contains prefix and token
+const { help } = require('./modules/help');
 
 prefix = config.prefix
 
@@ -49,6 +51,8 @@ client.on('message', message => {
 		switch(cmdName) {
 			case "setup":
 				setup.startsetup(message, client); break;
+			case "help":
+				helpjs.help(message); break;
 			case "reset":
 				setup.reset(message, client); break;
 			case "uploadtributes":
@@ -60,11 +64,13 @@ client.on('message', message => {
 				if(!client.currentGames.get(message.guild.id, "inGame") && client.currentGames.get(message.guild.id, "chosen")) {
 					game.start(message, client) //HERE WE GO
 				}
+				else if(client.currentGames.get(message.guild.id, "inGame")) console.log("Game already running, use hg!next.")
 				break;
 			case "next":
 				if(client.currentGames.get(message.guild.id, "inGame")) {
 					game.next(message, client) //HERE WE GO
 				}
+				else if (!client.currentGames.get(message.guild.id, "inGame")) console.log("No game found. Please run hg!setup or hg!start.")
 				break;
 		}
 		if(client.currentGames.get(message.guild.id, "inSetup")) setup.chooseTributes(message, client);

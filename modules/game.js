@@ -17,6 +17,8 @@ exports.start = (message, client) => {
 			else
 				roundEmbed.addField('\u200b\n**' + events[i].string + '**', '\u200b', true);
 	}
+	roundEmbed.setFooter('Use hg!next to launch the next round.');;
+
 	message.channel.send(roundEmbed)
 	db.set(_guild, true, "isDay");
 	db.set(_guild, 1, "day");
@@ -42,8 +44,9 @@ exports.next = (message, client) => {
 			else
 				roundEmbed.addField('\u200b\n**' + events[i].string + '**', '\u200b', true);
 		}
+		roundEmbed.setFooter('Use hg!next to launch the next round.');;
 		message.channel.send(roundEmbed);
-		
+
 		if(db.get(_guild, "currentTributes").length < 2){
 			endGame(message, db.get(_guild, "currentTributes"), client);
 		}
@@ -130,16 +133,16 @@ function killEvents(events, initialLength, currentLength) {
 		let rand = Math.random();
 		let j = currentLength/initialLength;
 		if(newEvents[i].deaths[0] != -1) {
-			console.log(rand + "   " + j);
-			if(j < rand * 2) {console.log("added"); newEvents.push(newEvents[i])};
+			if(j < rand * 2) newEvents.push(newEvents[i]);
 		}
-		console.log(i)
 	}
 	return(newEvents);
 }
 
 function endGame(message, currentTributes, client) {
-  var winnerEmbed = new Discord.MessageEmbed().setTitle('**VICTORY**').setDescription('***' + currentTributes[0].name + '*** **has won the Hunger Games!**').setColor('#19d3e0').setFooter('Bot has been reset. You can now start a new game.');;
+  var winnerEmbed = new Discord.MessageEmbed().setTitle('**VICTORY**')
+	.setDescription('***' + currentTributes[0].name + '*** **has won the Hunger Games!**')
+	.setColor('#19d3e0').setFooter('Bot has been reset. You can now start a new game.');;
   message.channel.send(winnerEmbed);
 	client.currentGames.delete(message.guild.id);
 }
