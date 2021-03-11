@@ -1,159 +1,159 @@
 {
-    "events": [
-    {
-        "string": "<tribute0> finds a bow, some arrows, and a quiver.",
-      "numTributes": 1,
-        "deaths": [-1]
-      },
-      {
-        "string": "<tribute0> runs away from the Cornucopia.",
-      "numTributes": 1,
-        "deaths": [-1]
-      },
-      {
-        "string": "<tribute0> and <tribute1> fight for a bag. <tribute1> gives up and retreats.",
-      "numTributes": 2,
-        "deaths": [-1]
-      },
-      {
-        "string": "<tribute0> finds a backpack full of camping equipment.",
-      "numTributes": 1,
-        "deaths": [-1]
-      },
-      {
-        "string": "<tribute0> passes out from exhaustion.",
-      "numTributes": 1,
-        "deaths": [-1]
-      },
-      {
-        "string": "<tribute0> runs into the cornucopia and hides.",
-      "numTributes": 1,
-        "deaths": [-1]
-      },
-      {
-        "string": "<tribute0> takes a spear from inside the cornucopia.",
-      "numTributes": 1,
-        "deaths": [-1]
-      },
-      {
-        "string": "<tribute0> grabs a sword.",
-      "numTributes": 1,
-        "deaths": [-1]
-      },
-      {
-        "string": "<tribute0> finds a bag full of explosives.",
-      "numTributes": 1,
-        "deaths": [-1]
-      },
-    {
-      "string": "<tribute0> takes a sickle from inside the cornucopia.",
-      "numTributes": 1,
-      "deaths": [-1]  
-    },
-    {
-      "string": "<tribute0>, <tribute1> and <tribute2> work together to get as many supplies as possible",
-      "numTributes": 3,
-      "deaths": [-1]
-    },
-    {
-      "string": "<tribute0> snatches a pair of sais.",
-      "numTributes": 1,
-      "deaths": [-1]
-    },
-    {
-      "string": "<tribute0> stays at the cornucopia for resources",
-      "numTributes": 1,
-      "deaths": [-1]
-    },
-    {
-      "string": "<tribute0> finds a canteen full of water.",
-      "numTributes": 1,
-      "deaths": [-1]
-    },
-    {
-      "string": "<tribute0> takes a handful of throwing knives.",
-      "numTributes": 1,
-      "deaths": [-1]
-    },
-    {
-      "string": "<tribute0> runs away with a lighter and some rope.",
-      "numTributes": 1,
-      "deaths": [-1]
-    },
-    {
-      "string": "<tribute0> grabs a shield leaning against the cornucopia.",
-      "numTributes": 1,
-      "deaths": [-1]
-    },
-    {
-      "string": "<tribute0> breaks <tribute1>'s nose for a basket of bread.",
-      "numTributes": 2,
-      "deaths": [-1]  
-    },
-    {
-      "string": "<tribute0> breaks <tribute1>'s nose for a basket of shrooms.",
-      "numTributes": 2,
-      "deaths": [-1]  
-    },
-    {
-      "string": "<tribute0> grabs a backpack, not realising it is empty.",
-      "numTributes": 1,
-      "deaths": [-1]  
-    },
-    {
-      "string": "<tribute0> scares <tribute1> away from the Cornucopia.",
-      "numTributes": 2,
-      "deaths": [-1]  
-    },
-    {
-      "string": "<tribute0> grabs a bag of fruit from the Cornucopia.",
-      "numTributes": 1,
-      "deaths": [-1]  
-    },
-    {
-      "string": "<tribute0> runs into the distance empty handed.",
-      "numTributes": 1,
-      "deaths": [-1]  
-    },
-    {
-      "string": "<tribute0> hides in the Cornucopia until all the other tributes are gone, then grabs a knife.",
-      "numTributes": 1,
-      "deaths": [-1]  
-    },
-    {
-      "string": "<tribute0> sets <tribute1> on fire with a molotov.",
-      "numTributes": 2,
-      "deaths": [1]
-    },
-    {
-      "string": "<tribute0> steps off <hishertheir0> podium too soon and blows up.",
-      "numTributes": 1,
-      "deaths": [0]
-    },
-    {
-      "string": "<tribute0>, <tribute1> and <tribute2> start fighting, but <tribute1> runs away as <tribute0> kills <tribute2>.",
-      "numTributes": 3,
-      "deaths": [2]
-    },
-    {
-      "string": "<tribute0>, <tribute1> and <tribute2> fight over a mine, which explodes killing all three.",
-      "numTributes": 3,
-      "deaths": [0, 1, 2]
-    },
-    {
-      "string": "<tribute0> kills <tribute1> with a throwing knife.",
-      "numTributes": 2,
-      "deaths": [1]
-    },
-    {
-      "string": "<tribute0> kills <tribute1> with an axe.",
-      "numTributes": 2,
-      "deaths": [1]
-    },
-    {
-      "string": "<tribute0> unknowingly eats poisonous berries.",
-      "numTributes": 1,
-      "deaths": [0]
-    }
-   ]
-  }
+		"events": [
+	{
+			"string": "<tribute0> finds a bow, some arrows, and a quiver.",
+			"numTributes": 1,
+			"deaths": [-1]
+		},
+		{
+			"string": "<tribute0> runs away from the Cornucopia.",
+			"numTributes": 1,
+			"deaths": [-1]
+		},
+		{
+			"string": "<tribute0> and <tribute1> fight for a bag. <tribute1> gives up and retreats.",
+			"numTributes": 2,
+			"deaths": [-1]
+		},
+		{
+			"string": "<tribute0> finds a backpack full of camping equipment.",
+			"numTributes": 1,
+			"deaths": [-1]
+		},
+		{
+			"string": "<tribute0> passes out from exhaustion.",
+			"numTributes": 1,
+			"deaths": [-1]
+		},
+		{
+			"string": "<tribute0> runs into the cornucopia and hides.",
+			"numTributes": 1,
+			"deaths": [-1]
+		},
+		{
+			"string": "<tribute0> takes a spear from inside the cornucopia.",
+			"numTributes": 1,
+			"deaths": [-1]
+		},
+		{
+			"string": "<tribute0> grabs a sword.",
+			"numTributes": 1,
+			"deaths": [-1]
+		},
+		{
+			"string": "<tribute0> finds a bag full of explosives.",
+			"numTributes": 1,
+			"deaths": [-1]
+		},
+		{
+			"string": "<tribute0> takes a sickle from inside the cornucopia.",
+			"numTributes": 1,
+			"deaths": [-1]  
+		},
+		{
+			"string": "<tribute0>, <tribute1> and <tribute2> work together to get as many supplies as possible",
+			"numTributes": 3,
+			"deaths": [-1]
+		},
+		{
+			"string": "<tribute0> snatches a pair of sais.",
+			"numTributes": 1,
+			"deaths": [-1]
+		},
+		{
+			"string": "<tribute0> stays at the cornucopia for resources",
+			"numTributes": 1,
+			"deaths": [-1]
+		},
+		{
+			"string": "<tribute0> finds a canteen full of water.",
+			"numTributes": 1,
+			"deaths": [-1]
+		},
+		{
+			"string": "<tribute0> takes a handful of throwing knives.",
+			"numTributes": 1,
+			"deaths": [-1]
+		},
+		{
+			"string": "<tribute0> runs away with a lighter and some rope.",
+			"numTributes": 1,
+			"deaths": [-1]
+		},
+		{
+			"string": "<tribute0> grabs a shield leaning against the cornucopia.",
+			"numTributes": 1,
+			"deaths": [-1]
+		},
+		{
+			"string": "<tribute0> breaks <tribute1>'s nose for a basket of bread.",
+			"numTributes": 2,
+			"deaths": [-1]  
+		},
+		{
+			"string": "<tribute0> breaks <tribute1>'s nose for a basket of shrooms.",
+			"numTributes": 2,
+			"deaths": [-1]  
+		},
+		{
+			"string": "<tribute0> grabs a backpack, not realising it is empty.",
+			"numTributes": 1,
+			"deaths": [-1]  
+		},
+		{
+			"string": "<tribute0> scares <tribute1> away from the Cornucopia.",
+			"numTributes": 2,
+			"deaths": [-1]  
+		},
+		{
+			"string": "<tribute0> grabs a bag of fruit from the Cornucopia.",
+			"numTributes": 1,
+			"deaths": [-1]  
+		},
+		{
+			"string": "<tribute0> runs into the distance empty handed.",
+			"numTributes": 1,
+			"deaths": [-1]  
+		},
+		{
+			"string": "<tribute0> hides in the Cornucopia until all the other tributes are gone, then grabs a knife.",
+			"numTributes": 1,
+			"deaths": [-1]  
+		},
+		{
+			"string": "<tribute0> sets <tribute1> on fire with a molotov.",
+			"numTributes": 2,
+			"deaths": [1]
+		},
+		{
+			"string": "<tribute0> steps off <hishertheir0> podium too soon and blows up.",
+			"numTributes": 1,
+			"deaths": [0]
+		},
+		{
+			"string": "<tribute0>, <tribute1> and <tribute2> start fighting, but <tribute1> runs away as <tribute0> kills <tribute2>.",
+			"numTributes": 3,
+			"deaths": [2]
+		},
+		{
+			"string": "<tribute0>, <tribute1> and <tribute2> fight over a mine, which explodes killing all three.",
+			"numTributes": 3,
+			"deaths": [0, 1, 2]
+		},
+		{
+			"string": "<tribute0> kills <tribute1> with a throwing knife.",
+			"numTributes": 2,
+			"deaths": [1]
+		},
+		{
+			"string": "<tribute0> kills <tribute1> with an axe.",
+			"numTributes": 2,
+			"deaths": [1]
+		},
+		{
+			"string": "<tribute0> unknowingly eats poisonous berries.",
+			"numTributes": 1,
+			"deaths": [0]
+		}
+	 ]
+	}

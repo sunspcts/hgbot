@@ -1,219 +1,219 @@
 {
-  "events": [
-    {
-	  "string": "<tribute0> goes to sleep.",
-	  "deaths": [-1],
-    "numTributes": 1
+	"events": [
+		{
+		"string": "<tribute0> goes to sleep.",
+		"deaths": [-1],
+		"numTributes": 1
 	},
 	{
-	  "string": "<tribute0> attempts to start a fire, but is unsuccessful.",
-	  "deaths": [-1],
-    "numTributes": 1
+		"string": "<tribute0> attempts to start a fire, but is unsuccessful.",
+		"deaths": [-1],
+		"numTributes": 1
 	},
 	{
-	  "string": "<tribute0> attempts to climb a tree, but falls to <hishertheir0> death.",
-	  "deaths": [0],
-    "numTributes": 1
+		"string": "<tribute0> attempts to climb a tree, but falls to <hishertheir0> death.",
+		"deaths": [0],
+		"numTributes": 1
 	},
 	{
-	  "string": "<tribute0> passes out from exhaustion.",
-	  "deaths": [-1],
-    "numTributes": 1
+		"string": "<tribute0> passes out from exhaustion.",
+		"deaths": [-1],
+		"numTributes": 1
 	},
 	{
-	  "string": "<tribute0> tries to sing <himherthem0>self to sleep.",
-	  "deaths": [-1],
-    "numTributes": 1
+		"string": "<tribute0> tries to sing <himherthem0>self to sleep.",
+		"deaths": [-1],
+		"numTributes": 1
 	},
 	{
-	  "string": "<tribute0> cries <himherthem0>self to sleep.",
-	  "deaths": [-1],
-    "numTributes": 1
+		"string": "<tribute0> cries <himherthem0>self to sleep.",
+		"deaths": [-1],
+		"numTributes": 1
 	},
 	{
-	  "string": "<tribute0> starts a fire.",
-	  "deaths": [-1],
-    "numTributes": 1
+		"string": "<tribute0> starts a fire.",
+		"deaths": [-1],
+		"numTributes": 1
 	},
 	{
-	  "string": "<tribute0> kills <tribute1> for <hishertheir1> supplies.",
-	  "deaths": [1],
-    "numTributes": 2
+		"string": "<tribute0> kills <tribute1> for <hishertheir1> supplies.",
+		"deaths": [1],
+		"numTributes": 2
 	},
 	{
-	  "string": "<tribute0> quietly hums.",
-	  "deaths": [-1],
-    "numTributes": 1
+		"string": "<tribute0> quietly hums.",
+		"deaths": [-1],
+		"numTributes": 1
 	},
 	{
-	  "string": "<tribute0> thinks about home.",
-	  "deaths": [-1],
-    "numTributes": 1
+		"string": "<tribute0> thinks about home.",
+		"deaths": [-1],
+		"numTributes": 1
 	},
 	{
-	  "string": "<tribute0>, <tribute1>, <tribute2> and <tribute3> sleep in shifts.",
-	  "deaths": [-1],
-    "numTributes": 4
+		"string": "<tribute0>, <tribute1>, <tribute2> and <tribute3> sleep in shifts.",
+		"deaths": [-1],
+		"numTributes": 4
 	},
 	{
-	  "string": "<tribute0>, <tribute1>, and <tribute2> sleep in shifts.",
-	  "deaths": [-1],
-    "numTributes": 3
+		"string": "<tribute0>, <tribute1>, and <tribute2> sleep in shifts.",
+		"deaths": [-1],
+		"numTributes": 3
 	},
 	{
-	  "string": "<tribute0> and <tribute1> talk about the tributes still alive.",
-	  "deaths": [-1],
-    "numTributes": 2
+		"string": "<tribute0> and <tribute1> talk about the tributes still alive.",
+		"deaths": [-1],
+		"numTributes": 2
 	},
-  {
-	  "string": "<tribute0> receives fresh food from an unknown sponsor.",
-	  "deaths": [-1],
-    "numTributes": 1
+	{
+		"string": "<tribute0> receives fresh food from an unknown sponsor.",
+		"deaths": [-1],
+		"numTributes": 1
 	},
-  {
-	  "string": "<tribute0> discovers a river.",
-	  "deaths": [-1],
-    "numTributes": 1
+	{
+		"string": "<tribute0> discovers a river.",
+		"deaths": [-1],
+		"numTributes": 1
 	},
-  {
-	  "string": "<tribute0> picks flowers.",
-	  "deaths": [-1],
-    "numTributes": 1
+	{
+		"string": "<tribute0> picks flowers.",
+		"deaths": [-1],
+		"numTributes": 1
 	},
-  {
-	  "string": "<tribute0> begs for <tribute1> to kill <himherthem0>, but <tribute1> refuses, keeping <tribute0> alive. ",
-	  "deaths": [-1],
-    "numTributes": 2
+	{
+		"string": "<tribute0> begs for <tribute1> to kill <himherthem0>, but <tribute1> refuses, keeping <tribute0> alive. ",
+		"deaths": [-1],
+		"numTributes": 2
 	},
-  {
-	  "string": "<tribute0> fishes.",
-	  "deaths": [-1],
-    "numTributes": 1
+	{
+		"string": "<tribute0> fishes.",
+		"deaths": [-1],
+		"numTributes": 1
 	},
-  {
-	  "string": "<tribute0> cannot handle the circumstances and commits suicide.",
-	  "deaths": [0],
-    "numTributes": 1
+	{
+		"string": "<tribute0> cannot handle the circumstances and commits suicide.",
+		"deaths": [0],
+		"numTributes": 1
 	},
-  {
-	  "string": "<tribute0> fishes.",
-	  "deaths": [-1],
-    "numTributes": 1
+	{
+		"string": "<tribute0> fishes.",
+		"deaths": [-1],
+		"numTributes": 1
 	},
-  {
-	  "string": "<tribute0> scares <tribute1> off.",
-	  "deaths": [-1],
-    "numTributes": 2
+	{
+		"string": "<tribute0> scares <tribute1> off.",
+		"deaths": [-1],
+		"numTributes": 2
 	},
-  {
-	  "string": "<tribute0> dies trying to escape the simulation.",
-	  "deaths": [0],
-    "numTributes": 1
+	{
+		"string": "<tribute0> dies trying to escape the simulation.",
+		"deaths": [0],
+		"numTributes": 1
 	},
-  {
-    "string": "<tribute0> convinces <tribute1> to snuggle with <himherthem0>.",
-    "deaths": [-1],
-    "numTributes": 2
-  },
-  {
-    "string": "<tribute0> loses sight of where <heshethey0> <isare0>.",
-    "deaths": [-1],
-    "numTributes": 1
-  },
-  {
-    "string": "<tribute0> thinks about winning.",
-    "deaths": [-1],
-    "numTributes": 1
-  },
-  {
-    "string": "<tribute0> receives clean water from an unknown sponsor.",
-    "deaths": [-1],
-    "numTributes": 1
-  },
-  {
-    "string": "<tribute0> destroys <tribute1>'s supplies while <heshethey1> <isare1> asleep.",
-    "deaths": [-1],
-    "numTributes": 2
-  },
-  {
-    "string": "<tribute0> stays awake all night.",
-    "deaths": [-1],
-    "numTributes": 1
-  },
-  {
-    "string": "<tribute0> screams for help.",
-    "deaths": [-1],
-    "numTributes": 1
-  },
-  {
-    "string": "<tribute0>, <tribute1>, <tribute2> and <tribute3> tell each other ghost stories to lighten the mood.",
-    "deaths": [-1],
-    "numTributes": 4
-  },
-  {
-    "string": "<tribute0> looks at the night sky.",
-    "deaths": [-1],
-    "numTributes": 1
-  },
-  {
-    "string": "<tribute0> and <tribute1> huddle for warmth.",
-    "deaths": [-1],
-    "numTributes": 2
-  },
-  {
-    "string": "<tribute0>, <tribute1> and <tribute2> cheerfully sing songs together.",
-    "deaths": [-1],
-    "numTributes": 3
-  },
-  {
-    "string": "<tribute0> questions <hishertheir0> sanity.",
-    "deaths": [-1],
-    "numTributes": 1
-  },
-  {
-    "string": "<tribute0> receives a hatchet from an unknown sponsor.",
-    "deaths": [-1],
-    "numTributes": 1
-  },
-  {
-    "string": "<tribute0> kills <tribute1> with <hishertheir1> own weapon.",
-    "deaths": [1],
-    "numTributes": 2
-  },
-  {
-    "string": "<tribute0> kills <tribute1> as <tribute1> tries to run.",
-    "deaths": [1],
-    "numTributes": 2
-  },
-  {
-    "string": "<tribute0> and <tribute1> tell stories about themselves to each other.",
-    "deaths": [-1],
-    "numTributes": 2
-  },
-  {
-    "string": "<tribute0> spears <tribute1> in the abdomen.",
-    "deaths": [1],
-    "numTributes": 2
-  },
-  {
-    "string": "<tribute0> unknowingly eats fatally poisonous berries.",
-    "deaths": [0],
-    "numTributes": 1
-  },
-  {
-    "string": "<tribute0> dies from hypothermia.",
-    "deaths": [0],
-    "numTributes": 1
-  },
-  {
-    "string": "<tribute0> shelters in a cave for the night.",
-    "numTributes": 1,
-    "deaths": [-1]  
-  },
-  {
-    "string": "<tribute0> stares at the starlight.",
-    "numTributes": 1,
-    "deaths": [-1]  
-  }
+	{
+		"string": "<tribute0> convinces <tribute1> to snuggle with <himherthem0>.",
+		"deaths": [-1],
+		"numTributes": 2
+	},
+	{
+		"string": "<tribute0> loses sight of where <heshethey0> <isare0>.",
+		"deaths": [-1],
+		"numTributes": 1
+	},
+	{
+		"string": "<tribute0> thinks about winning.",
+		"deaths": [-1],
+		"numTributes": 1
+	},
+	{
+		"string": "<tribute0> receives clean water from an unknown sponsor.",
+		"deaths": [-1],
+		"numTributes": 1
+	},
+	{
+		"string": "<tribute0> destroys <tribute1>'s supplies while <heshethey1> <isare1> asleep.",
+		"deaths": [-1],
+		"numTributes": 2
+	},
+	{
+		"string": "<tribute0> stays awake all night.",
+		"deaths": [-1],
+		"numTributes": 1
+	},
+	{
+		"string": "<tribute0> screams for help.",
+		"deaths": [-1],
+		"numTributes": 1
+	},
+	{
+		"string": "<tribute0>, <tribute1>, <tribute2> and <tribute3> tell each other ghost stories to lighten the mood.",
+		"deaths": [-1],
+		"numTributes": 4
+	},
+	{
+		"string": "<tribute0> looks at the night sky.",
+		"deaths": [-1],
+		"numTributes": 1
+	},
+	{
+		"string": "<tribute0> and <tribute1> huddle for warmth.",
+		"deaths": [-1],
+		"numTributes": 2
+	},
+	{
+		"string": "<tribute0>, <tribute1> and <tribute2> cheerfully sing songs together.",
+		"deaths": [-1],
+		"numTributes": 3
+	},
+	{
+		"string": "<tribute0> questions <hishertheir0> sanity.",
+		"deaths": [-1],
+		"numTributes": 1
+	},
+	{
+		"string": "<tribute0> receives a hatchet from an unknown sponsor.",
+		"deaths": [-1],
+		"numTributes": 1
+	},
+	{
+		"string": "<tribute0> kills <tribute1> with <hishertheir1> own weapon.",
+		"deaths": [1],
+		"numTributes": 2
+	},
+	{
+		"string": "<tribute0> kills <tribute1> as <tribute1> tries to run.",
+		"deaths": [1],
+		"numTributes": 2
+	},
+	{
+		"string": "<tribute0> and <tribute1> tell stories about themselves to each other.",
+		"deaths": [-1],
+		"numTributes": 2
+	},
+	{
+		"string": "<tribute0> spears <tribute1> in the abdomen.",
+		"deaths": [1],
+		"numTributes": 2
+	},
+	{
+		"string": "<tribute0> unknowingly eats fatally poisonous berries.",
+		"deaths": [0],
+		"numTributes": 1
+	},
+	{
+		"string": "<tribute0> dies from hypothermia.",
+		"deaths": [0],
+		"numTributes": 1
+	},
+	{
+		"string": "<tribute0> shelters in a cave for the night.",
+		"numTributes": 1,
+		"deaths": [-1]  
+	},
+	{
+		"string": "<tribute0> stares at the starlight.",
+		"numTributes": 1,
+		"deaths": [-1]  
+	}
 ]
 }
