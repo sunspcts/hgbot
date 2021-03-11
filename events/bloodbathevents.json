@@ -41,11 +41,6 @@
         "deaths": [-1]
       },
       {
-        "string": "<tribute0>, <tribute1> and <tribute2> start fighting, but <tribute1> runs away as <tribute0> kills <tribute2>.",
-      "numTributes": 3,
-        "deaths": [2]
-      },
-      {
         "string": "<tribute0> finds a bag full of explosives.",
       "numTributes": 1,
         "deaths": [-1]
@@ -71,11 +66,6 @@
       "deaths": [-1]
     },
     {
-      "string": "<tribute0> steps off <hishertheir0> podium too soon and blows up.",
-      "numTributes": 1,
-      "deaths": [0]
-    },
-    {
       "string": "<tribute0> finds a canteen full of water.",
       "numTributes": 1,
       "deaths": [-1]
@@ -94,11 +84,6 @@
       "string": "<tribute0> grabs a shield leaning against the cornucopia.",
       "numTributes": 1,
       "deaths": [-1]
-    },
-    {
-      "string": "<tribute0> sets <tribute1> on fire with a molotov.",
-      "numTributes": 2,
-      "deaths": [1]
     },
     {
       "string": "<tribute0> breaks <tribute1>'s nose for a basket of bread.",
@@ -134,6 +119,41 @@
       "string": "<tribute0> hides in the Cornucopia until all the other tributes are gone, then grabs a knife.",
       "numTributes": 1,
       "deaths": [-1]  
+    },
+    {
+      "string": "<tribute0> sets <tribute1> on fire with a molotov.",
+      "numTributes": 2,
+      "deaths": [1]
+    },
+    {
+      "string": "<tribute0> steps off <hishertheir0> podium too soon and blows up.",
+      "numTributes": 1,
+      "deaths": [0]
+    },
+    {
+      "string": "<tribute0>, <tribute1> and <tribute2> start fighting, but <tribute1> runs away as <tribute0> kills <tribute2>.",
+      "numTributes": 3,
+      "deaths": [2]
+    },
+    {
+      "string": "<tribute0>, <tribute1> and <tribute2> fight over a mine, which explodes killing all three.",
+      "numTributes": 3,
+      "deaths": [0, 1, 2]
+    },
+    {
+      "string": "<tribute0> kills <tribute1> with a throwing knife.",
+      "numTributes": 2,
+      "deaths": [1]
+    },
+    {
+      "string": "<tribute0> kills <tribute1> with an axe.",
+      "numTributes": 2,
+      "deaths": [1]
+    },
+    {
+      "string": "<tribute0> unknowingly eats poisonous berries.",
+      "numTributes": 1,
+      "deaths": [0]
     }
    ]
   }

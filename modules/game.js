@@ -104,9 +104,10 @@ function shuffleArray(array) {
 
 function cannonShots(db, _guild) {
 	dead = db.get(_guild, "dead")
+	let day = db.get(_guild, "day")
 	let deadEmbed = new Discord.MessageEmbed().setTitle('**The Dead**').setDescription('Cannon shots can be heard in the distance...');
   for(let i = 0; i < dead.length; i++){
-    deadEmbed.addField('**' + dead[i].name + '**', 'placeholder');
+    deadEmbed.addField('**' + dead[i].name + '**', `Day ${day}`);
 	};
 	db.set(_guild, [], "dead");
 	return deadEmbed;
